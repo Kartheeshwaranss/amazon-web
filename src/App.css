@@ -1,0 +1,60 @@
+img{
+
+  width: 100px;
+  height: 100px;
+ 
+
+}
+  header{
+  display: flex;
+  background-color: rgb(12, 12, 76);
+  color: aliceblue;
+}
+h3{
+  background-color: rgb(12, 12, 76);
+  justify-content: space-between;
+}
+h4{  background-color: rgb(12, 12, 76);
+  display: flex;
+  color: aliceblue;
+}
+main{
+  background-color: aquamarine;
+}
+nav ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+nav{
+  overflow: hidden;
+}
+nav li{
+  float: left;
+}
+nav a{
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+nav a:hover{
+  background-color: #ddd;
+  color: black;
+}
+body{
+  background-color: aqua;
+}
+.container img{
+  width: 30%;
+  height: 30%;
+  object-fit: cover;
+  border-radius: 10px;
+  border: 2px solid rgba(red, green, blue, alpha);
+  transition: all ease-in-out;
+}
+.container img:hover{
+  width: 50%
+}
